@@ -1,0 +1,9 @@
+{
+  "identifier": "com.jeff.my-theme",
+  "name": "My Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A warm theme for Standard Notes.",
+  "url": "http://localhost:8001/theme.css"
+}
