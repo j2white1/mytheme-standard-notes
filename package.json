@@ -1,7 +1,23 @@
 {
-  "name": "mytheme-standard-notes",
-  "version": "1.0.0",
+  "name": "@standardnotes/mytheme-standard-notes",
+  "version": "1.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://j2white1.github.io/",
+    "directory": "mytheme-standard-notes"
+  },
   "sn": {
-    "main": "theme.css"
+    "name": "MyTheme",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "main.scss",
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "webpack --entry ./src/main.scss --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "webpack": "*"
   }
 }
