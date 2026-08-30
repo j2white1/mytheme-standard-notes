@@ -3,7 +3,15 @@
   "name": "My Theme",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "A warm, minimal theme for Standard Notes.",
-  "url": "https://j2white1.github.io/mytheme-standard-notes/main.scss"
+  "url": "https://j2white1.github.io/mytheme-standard-notes/main.css"
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#adadad",
+    "foreground_color": "#ffffff",
+    "border_color": "#ffffff"
+  },
+  "isDark": true
 }
+
