@@ -1,7 +1,8 @@
 {
-  "name": "mytheme-standard-notes",
+  "identifier": "com.jeff.my-theme",
+  "name": "My Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
   "version": "1.0.0",
-  "sn": {
-    "main": "theme.css"
-  }
+  "description": "A warm theme for Standard Notes.",
 }
