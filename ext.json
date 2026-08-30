@@ -6,12 +6,5 @@
   "version": "1.0",
   "description": "A warm, minimal theme for Standard Notes.",
   "url": "https://j2white1.github.io/mytheme-standard-notes/main.css"
-  "dock_icon": {
-    "type": "circle",
-    "background_color": "#adadad",
-    "foreground_color": "#ffffff",
-    "border_color": "#ffffff"
-  },
-  "isDark": true
 }
 
