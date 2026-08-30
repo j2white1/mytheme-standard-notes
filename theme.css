@@ -1,0 +1,155 @@
+:root {
+  /* Typography */
+  --sn-stylekit-base-font-size: 15px;
+
+  --sn-stylekit-font-size-p: 1rem;
+  --sn-stylekit-font-size-editor: 1.08rem;
+
+  --sn-stylekit-font-size-h6: 0.85rem;
+  --sn-stylekit-font-size-h5: 0.95rem;
+  --sn-stylekit-font-size-h4: 1.05rem;
+  --sn-stylekit-font-size-h3: 1.2rem;
+  --sn-stylekit-font-size-h2: 1.45rem;
+  --sn-stylekit-font-size-h1: 1.8rem;
+
+  --sn-stylekit-sans-serif-font:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Text",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  --sn-stylekit-monospace-font:
+    "SFMono-Regular",
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  /* Bear-ish accent */
+  --sn-stylekit-info-color: #d9504f;
+  --sn-stylekit-info-contrast-color: #ffffff;
+
+  --sn-stylekit-success-color: #5b8f62;
+  --sn-stylekit-warning-color: #c98b32;
+  --sn-stylekit-danger-color: #d9504f;
+
+  /* Main editor */
+  --sn-stylekit-background-color: #fffdf9;
+  --sn-stylekit-foreground-color: #272625;
+  --sn-stylekit-paragraph-text-color: #363432;
+
+  /* Dividers */
+  --sn-stylekit-border-color: #e9e5df;
+  --sn-stylekit-shadow-color: rgba(0, 0, 0, 0.08);
+
+  /* Secondary surfaces */
+  --sn-stylekit-contrast-background-color: #f8f5f0;
+  --sn-stylekit-contrast-foreground-color: #353331;
+  --sn-stylekit-contrast-border-color: #e8e4de;
+
+  /* Sidebar */
+  --sn-stylekit-secondary-background-color: #f3f0eb;
+  --sn-stylekit-secondary-foreground-color: #55514c;
+  --sn-stylekit-secondary-border-color: #e3dfd8;
+
+  /* Selected items */
+  --sn-stylekit-secondary-contrast-background-color: #e9e5df;
+  --sn-stylekit-secondary-contrast-foreground-color: #292725;
+
+  --sn-stylekit-neutral-color: #96918b;
+  --sn-stylekit-neutral-contrast-color: #ffffff;
+
+  /* Inputs */
+  --sn-stylekit-input-placeholder-color: #aaa49c;
+  --sn-stylekit-input-border-color: #e1ddd7;
+
+  /* Scrollbars */
+  --sn-stylekit-scrollbar-thumb-color: #d5d0ca;
+  --sn-stylekit-scrollbar-track-border-color: transparent;
+
+  /* Rounded Bear-ish UI */
+  --sn-stylekit-general-border-radius: 6px;
+
+  /* Editor */
+  --sn-stylekit-editor-background-color: #fffdf9;
+  --sn-stylekit-editor-foreground-color: #292725;
+
+  /* Accent palette */
+  --sn-stylekit-accessory-tint-color-1: #d9504f;
+  --sn-stylekit-accessory-tint-color-2: #d47a7a;
+  --sn-stylekit-accessory-tint-color-3: #d0a34a;
+  --sn-stylekit-accessory-tint-color-4: #8577a8;
+  --sn-stylekit-accessory-tint-color-5: #648d72;
+  --sn-stylekit-accessory-tint-color-6: #c77b53;
+
+
+  /* ---------- Application layout ---------- */
+
+  --modal-background-color: #fffdf9;
+
+  --editor-header-bar-background-color: #fffdf9;
+  --editor-background-color: #fffdf9;
+  --editor-foreground-color: #292725;
+
+  --editor-title-bar-border-bottom-color: #eeeae4;
+  --editor-title-input-color: #292725;
+
+  --editor-pane-background-color: #fffdf9;
+  --editor-pane-editor-background-color: #fffdf9;
+  --editor-pane-editor-foreground-color: #292725;
+
+  /* Note list */
+  --items-column-background-color: #faf8f4;
+  --items-column-items-background-color: #faf8f4;
+  --items-column-border-left-color: #ece8e2;
+  --items-column-border-right-color: #e7e3dd;
+
+  --items-column-search-background-color: #f1eee9;
+
+  --item-cell-selected-background-color: #eeeae4;
+  --item-cell-selected-border-left-color: #d9504f;
+
+  /* Sidebar */
+  --navigation-column-background-color: #f3f0eb;
+  --navigation-section-title-color: #8b8580;
+  --navigation-item-text-color: #514d49;
+  --navigation-item-count-color: #aaa49e;
+
+  --navigation-item-selected-background-color: #e6e1da;
+
+  /* Links / selection */
+  --link-element-color: #d9504f;
+
+  --text-selection-color: #292725;
+  --text-selection-background-color: #f3ceca;
+}
+
+
+/*
+ * Small finishing touches.
+ * These selectors may need adjustment as Standard Notes changes its UI.
+ */
+
+body {
+  letter-spacing: -0.01em;
+}
+
+/* Softer note/editor typography */
+textarea,
+input,
+[contenteditable="true"] {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Text",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+/* Slightly stronger titles */
+input[type="text"] {
+  font-weight: 600;
+}
