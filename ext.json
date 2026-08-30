@@ -1,8 +1,9 @@
 {
-  "identifier": "com.jeff.my-theme",
+  "identifier": "com.j2white1.mytheme-standard-notes",
   "name": "My Theme",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
-  "description": "A warm theme for Standard Notes.",
+  "description": "A warm, minimal theme for Standard Notes.",
+  "url": "https://j2white1.github.io/mytheme-standard-notes/theme.css"
 }
