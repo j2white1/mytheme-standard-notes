@@ -1,10 +1,10 @@
 {
-  "name": "@standardnotes/mytheme-standard-notes",
-  "version": "1.2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://j2white1.github.io/",
-    "directory": "mytheme-standard-notes"
+  "name": "My Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A warm, minimal theme for Standard Notes.",
+  "url": "https://j2white1.github.io/mytheme-standard-notes/main.scss"
   },
   "sn": {
     "name": "MyTheme",
